@@ -19,7 +19,6 @@
 @end
 
 
-
 @implementation LinearProgressView
 
 #pragma mark - lifecycle
@@ -114,11 +113,6 @@
     self.gradientProgressView.progress = progress;
     NSLog(@"%s:%.2f", __func__,progress);
 }
-
-
-
-
-
 
 
 @end
