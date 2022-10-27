@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5152EEE29092B4900E74ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152EED29092B4900E74ACD /* AppDelegate.m */; };
+		B5152EF129092B4900E74ACD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152EF029092B4900E74ACD /* SceneDelegate.m */; };
+		B5152EF429092B4900E74ACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152EF329092B4900E74ACD /* ViewController.m */; };
+		B5152EF729092B4900E74ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5152EF529092B4900E74ACD /* Main.storyboard */; };
+		B5152EF929092B4B00E74ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5152EF829092B4B00E74ACD /* Assets.xcassets */; };
+		B5152EFC29092B4B00E74ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5152EFA29092B4B00E74ACD /* LaunchScreen.storyboard */; };
+		B5152EFF29092B4B00E74ACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152EFE29092B4B00E74ACD /* main.m */; };
+		B5152F0B29092C0300E74ACD /* SXGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152F0A29092C0300E74ACD /* SXGradientView.m */; };
+		B5152F0E29092CBD00E74ACD /* SXLinearProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152F0D29092CBD00E74ACD /* SXLinearProgressView.m */; };
+		B5152F1129092CEB00E74ACD /* SXLinearGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152F1029092CEB00E74ACD /* SXLinearGradientProgressView.m */; };
+		B5152F1429092D0F00E74ACD /* SXCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152F1329092D0F00E74ACD /* SXCircleProgressView.m */; };
+		B5152F1729092D5400E74ACD /* SXCircleGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152F1629092D5400E74ACD /* SXCircleGradientProgressView.m */; };
+		B5152F1D290933F200E74ACD /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152F1C290933F200E74ACD /* UIView+Animation.m */; };
+		B5152F20290942DB00E74ACD /* LinearProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152F1F290942DB00E74ACD /* LinearProgressView.m */; };
+		B5152F26290942FB00E74ACD /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5152F25290942FB00E74ACD /* CircleProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5152EE929092B4900E74ACD /* SXGradientView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXGradientView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5152EEC29092B4900E74ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5152EED29092B4900E74ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5152EEF29092B4900E74ACD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B5152EF029092B4900E74ACD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B5152EF229092B4900E74ACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5152EF329092B4900E74ACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5152EF629092B4900E74ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5152EF829092B4B00E74ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5152EFB29092B4B00E74ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5152EFD29092B4B00E74ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5152EFE29092B4B00E74ACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5152F0929092C0300E74ACD /* SXGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXGradientView.h; sourceTree = "<group>"; };
+		B5152F0A29092C0300E74ACD /* SXGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXGradientView.m; sourceTree = "<group>"; };
+		B5152F0C29092CBD00E74ACD /* SXLinearProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXLinearProgressView.h; sourceTree = "<group>"; };
+		B5152F0D29092CBD00E74ACD /* SXLinearProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXLinearProgressView.m; sourceTree = "<group>"; };
+		B5152F0F29092CEB00E74ACD /* SXLinearGradientProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXLinearGradientProgressView.h; sourceTree = "<group>"; };
+		B5152F1029092CEB00E74ACD /* SXLinearGradientProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXLinearGradientProgressView.m; sourceTree = "<group>"; };
+		B5152F1229092D0F00E74ACD /* SXCircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXCircleProgressView.h; sourceTree = "<group>"; };
+		B5152F1329092D0F00E74ACD /* SXCircleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXCircleProgressView.m; sourceTree = "<group>"; };
+		B5152F1529092D5400E74ACD /* SXCircleGradientProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXCircleGradientProgressView.h; sourceTree = "<group>"; };
+		B5152F1629092D5400E74ACD /* SXCircleGradientProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXCircleGradientProgressView.m; sourceTree = "<group>"; };
+		B5152F1A29092EFA00E74ACD /* SXGradientHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXGradientHeader.h; sourceTree = "<group>"; };
+		B5152F1B290933F200E74ACD /* UIView+Animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		B5152F1C290933F200E74ACD /* UIView+Animation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		B5152F1E290942DB00E74ACD /* LinearProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearProgressView.h; sourceTree = "<group>"; };
+		B5152F1F290942DB00E74ACD /* LinearProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinearProgressView.m; sourceTree = "<group>"; };
+		B5152F24290942FB00E74ACD /* CircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		B5152F25290942FB00E74ACD /* CircleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5152EE629092B4900E74ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5152EE029092B4900E74ACD = {
+			isa = PBXGroup;
+			children = (
+				B5152EEB29092B4900E74ACD /* SXGradientView */,
+				B5152EEA29092B4900E74ACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5152EEA29092B4900E74ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5152EE929092B4900E74ACD /* SXGradientView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5152EEB29092B4900E74ACD /* SXGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				B5152F0629092B6400E74ACD /* SXGradientUnion */,
+				B5152EEC29092B4900E74ACD /* AppDelegate.h */,
+				B5152EED29092B4900E74ACD /* AppDelegate.m */,
+				B5152EEF29092B4900E74ACD /* SceneDelegate.h */,
+				B5152EF029092B4900E74ACD /* SceneDelegate.m */,
+				B5152EF229092B4900E74ACD /* ViewController.h */,
+				B5152EF329092B4900E74ACD /* ViewController.m */,
+				B5152F1E290942DB00E74ACD /* LinearProgressView.h */,
+				B5152F1F290942DB00E74ACD /* LinearProgressView.m */,
+				B5152F24290942FB00E74ACD /* CircleProgressView.h */,
+				B5152F25290942FB00E74ACD /* CircleProgressView.m */,
+				B5152EF529092B4900E74ACD /* Main.storyboard */,
+				B5152EF829092B4B00E74ACD /* Assets.xcassets */,
+				B5152EFA29092B4B00E74ACD /* LaunchScreen.storyboard */,
+				B5152EFD29092B4B00E74ACD /* Info.plist */,
+				B5152EFE29092B4B00E74ACD /* main.m */,
+			);
+			path = SXGradientView;
+			sourceTree = "<group>";
+		};
+		B5152F0529092B5500E74ACD /* SXGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				B5152F0929092C0300E74ACD /* SXGradientView.h */,
+				B5152F0A29092C0300E74ACD /* SXGradientView.m */,
+			);
+			path = SXGradientView;
+			sourceTree = "<group>";
+		};
+		B5152F0629092B6400E74ACD /* SXGradientUnion */ = {
+			isa = PBXGroup;
+			children = (
+				B5152F1A29092EFA00E74ACD /* SXGradientHeader.h */,
+				B5152F1B290933F200E74ACD /* UIView+Animation.h */,
+				B5152F1C290933F200E74ACD /* UIView+Animation.m */,
+				B5152F0729092BAD00E74ACD /* SXProgressView */,
+				B5152F0529092B5500E74ACD /* SXGradientView */,
+			);
+			path = SXGradientUnion;
+			sourceTree = "<group>";
+		};
+		B5152F0729092BAD00E74ACD /* SXProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				B5152F1829092D6500E74ACD /* SXLinearProgressView */,
+				B5152F1929092D8500E74ACD /* SXCircleProgressView */,
+			);
+			path = SXProgressView;
+			sourceTree = "<group>";
+		};
+		B5152F1829092D6500E74ACD /* SXLinearProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				B5152F0C29092CBD00E74ACD /* SXLinearProgressView.h */,
+				B5152F0D29092CBD00E74ACD /* SXLinearProgressView.m */,
+				B5152F0F29092CEB00E74ACD /* SXLinearGradientProgressView.h */,
+				B5152F1029092CEB00E74ACD /* SXLinearGradientProgressView.m */,
+			);
+			path = SXLinearProgressView;
+			sourceTree = "<group>";
+		};
+		B5152F1929092D8500E74ACD /* SXCircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				B5152F1229092D0F00E74ACD /* SXCircleProgressView.h */,
+				B5152F1329092D0F00E74ACD /* SXCircleProgressView.m */,
+				B5152F1529092D5400E74ACD /* SXCircleGradientProgressView.h */,
+				B5152F1629092D5400E74ACD /* SXCircleGradientProgressView.m */,
+			);
+			path = SXCircleProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5152EE829092B4900E74ACD /* SXGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5152F0229092B4B00E74ACD /* Build configuration list for PBXNativeTarget "SXGradientView" */;
+			buildPhases = (
+				B5152EE529092B4900E74ACD /* Sources */,
+				B5152EE629092B4900E74ACD /* Frameworks */,
+				B5152EE729092B4900E74ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SXGradientView;
+			productName = SXGradientView;
+			productReference = B5152EE929092B4900E74ACD /* SXGradientView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5152EE129092B4900E74ACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B5152EE829092B4900E74ACD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B5152EE429092B4900E74ACD /* Build configuration list for PBXProject "SXGradientView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5152EE029092B4900E74ACD;
+			productRefGroup = B5152EEA29092B4900E74ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5152EE829092B4900E74ACD /* SXGradientView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5152EE729092B4900E74ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5152EFC29092B4B00E74ACD /* LaunchScreen.storyboard in Resources */,
+				B5152EF929092B4B00E74ACD /* Assets.xcassets in Resources */,
+				B5152EF729092B4900E74ACD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5152EE529092B4900E74ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5152F20290942DB00E74ACD /* LinearProgressView.m in Sources */,
+				B5152EF429092B4900E74ACD /* ViewController.m in Sources */,
+				B5152F0E29092CBD00E74ACD /* SXLinearProgressView.m in Sources */,
+				B5152EEE29092B4900E74ACD /* AppDelegate.m in Sources */,
+				B5152EFF29092B4B00E74ACD /* main.m in Sources */,
+				B5152F26290942FB00E74ACD /* CircleProgressView.m in Sources */,
+				B5152F1129092CEB00E74ACD /* SXLinearGradientProgressView.m in Sources */,
+				B5152F1D290933F200E74ACD /* UIView+Animation.m in Sources */,
+				B5152F1729092D5400E74ACD /* SXCircleGradientProgressView.m in Sources */,
+				B5152F0B29092C0300E74ACD /* SXGradientView.m in Sources */,
+				B5152F1429092D0F00E74ACD /* SXCircleProgressView.m in Sources */,
+				B5152EF129092B4900E74ACD /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5152EF529092B4900E74ACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5152EF629092B4900E74ACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5152EFA29092B4B00E74ACD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5152EFB29092B4B00E74ACD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5152F0029092B4B00E74ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5152F0129092B4B00E74ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5152F0329092B4B00E74ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SXGradientView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunny.SXGradientView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5152F0429092B4B00E74ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SXGradientView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunny.SXGradientView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5152EE429092B4900E74ACD /* Build configuration list for PBXProject "SXGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5152F0029092B4B00E74ACD /* Debug */,
+				B5152F0129092B4B00E74ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5152F0229092B4B00E74ACD /* Build configuration list for PBXNativeTarget "SXGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5152F0329092B4B00E74ACD /* Debug */,
+				B5152F0429092B4B00E74ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5152EE129092B4900E74ACD /* Project object */;
+}
